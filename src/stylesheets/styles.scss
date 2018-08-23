@@ -1,0 +1,29 @@
+@import "./bootstrap/bootstrap-reboot";
+@import "./bootstrap/bootstrap-grid";
+@import "./bootstrap/bootstrap";
+@import "./fontawesome/fa-brands";
+@import "./fontawesome/fa-regular";
+@import "./fontawesome/fa-solid";
+@import "./fontawesome/fontawesome";
+@import "./variables";
+@import "./header";
+@import "./footer";
+@import "./utilities";
+@import "./typography";
+@import "./forms";
+@import "./trade";
+@import "./main";
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    background: $bg_color;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: $text_color;
+}
+

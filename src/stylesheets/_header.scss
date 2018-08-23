@@ -1,0 +1,89 @@
+.header {
+    .navbar-brand {
+        max-height: 100%;
+        img {
+            width: auto;
+            height: 100%;
+        }
+    }
+    .navbar {
+        padding: 0 30px;
+    }
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar-nav {
+        font-size: 13px;
+        @include media-breakpoint-up(lg) {
+            font-size: 17px;
+        }
+        font-weight: 500;
+        .nav-item {
+            @include media-breakpoint-up(md) {
+                display: flex;
+                align-items: stretch;
+            }
+
+            &:first-child {
+                @include media-breakpoint-up(md) {
+                    border-left: 1px solid $border_color_dark;
+                }
+            }
+            & + .nav-item {
+                @include media-breakpoint-up(md) {
+                    border-left: 1px solid $border_color_dark;
+                }
+            }
+
+            .nav-link {
+                padding: 7px;
+                min-height: 38px;
+                display: flex;
+                align-items: center;
+                @include media-breakpoint-up(lg) {
+                    padding: 7px 17px;
+                }
+                @include media-breakpoint-up(xl) {
+                    padding: 17px 27px;
+                }
+                color: $light;
+                transition: all .2s ease-in;
+                &:hover,
+                &.active {
+                    color: $primary;
+                    background: $light;
+                }
+            }
+
+            &__icon {
+                order: -1;
+                @include media-breakpoint-up(md) {
+                    order: 0;
+                }
+                .nav-link {
+                    padding: 0 12px;
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    min-height: 38px;
+
+                }
+            }
+        }
+
+        .dropdown-toggle::after {
+            font-size: 20px;
+            opacity: .5;
+        }
+
+        .fas {
+            font-size: 26px;
+        }
+    }
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    margin: 0 -1px;
+}

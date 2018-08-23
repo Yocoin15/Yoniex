@@ -1,0 +1,233 @@
+.trade-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    & > div {
+        margin: 0 9px;
+        flex: 1;
+        min-width: 290px;
+    }
+
+    .trade-left {
+        flex-grow: 1;
+        display: flex;
+    }
+    .trade-center {
+        flex-grow: 4;
+        display: flex;
+        flex-direction: column;
+        @include media-breakpoint-up(sm) {
+            min-width: 340px;
+        }
+    }
+    .trade-right {
+        flex-grow: 2.5;
+        display: flex;
+        flex-direction: column;
+
+        .plane + .plane {
+            flex: 1;
+        }
+    }
+}
+
+.title-dark {
+    text-align: center;
+    padding: 12px 5px;
+    color: $light;
+    background: $bg_color_dark;
+
+    & > * {
+        margin: 0;
+    }
+}
+
+.plane {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 10px darken($border_color, .8);
+    font-size: 11px;
+    background: $light;
+    margin-bottom: 18px;
+
+    .graph-container {
+        width: 100%;
+        img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+}
+
+.table-small {
+    margin: 0;
+    font-size: 11px;
+
+    th,
+    td {
+        border: none;
+    }
+
+    tr {
+        padding: 12px;
+    }
+
+    thead th {
+        color: $bg_color_dark;
+        font-size: 13px;
+        font-weight: 500;
+        border-bottom: 1px solid $border-color-lighter;
+    }
+
+    thead.gray-bg th {
+        background: $gray_color;
+        border-bottom: none;
+    }
+
+    thead.gray th {
+        color: $gray_color3;
+    }
+
+    &.table-long {
+        @include media-breakpoint-down(sm) {
+            thead th {
+                padding: .5rem .25rem;
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+/*-----Start styles for small tabs buttons------------*/
+.nav-tabs {
+    &__small {
+        background: $gray_color;
+        border: none;
+        margin: 0 auto;
+        justify-content: center;
+        .nav-link {
+            font-weight: 500;
+            font-size: 13px;
+            padding: 12px 0;
+            min-width: 40px;
+            text-align: center;
+            border: none;
+            color: $bg_color_dark;
+            transition: all .1s ease-in;
+
+            &:hover,
+            &.active {
+                font-weight: 700;
+                color: $primary_color;
+                background: none;
+            }
+        }
+    }
+}
+/*-----End styles for small tabs buttons------------*/
+
+
+/*-----Start styles for center tabs buttons------------*/
+.nav-tabs {
+    &__center {
+        background: $gray_color;
+        border: none;
+        margin: 0 auto;
+        justify-content: center;
+        .nav-link {
+            font-weight: 500;
+            font-size: 13px;
+            padding: 12px 10px;
+            border: none;
+            border-radius: 0;
+            color: $bg_color_dark;
+            transition: all .1s ease-in;
+            margin-right: 1px;
+
+            &:hover,
+            &.active {
+                color: $light;
+                background: $primary_color;
+            }
+        }
+    }
+}
+/*-----End styles for center tabs buttons------------*/
+
+/*-----Start styles for default tabs buttons------------*/
+.nav-tabs {
+    &__default {
+        background: $bg_color_dark;
+        .nav-item {
+            margin-bottom: 0;
+        }
+        .nav-link {
+            font-size: 15px;
+            font-weight: 500;
+            margin: 0;
+            color: $primary_color_lighter;
+            background: $bg_color_dark;
+            border: none;
+            border-radius: 0;
+            transition: all .2s ease-in;
+            border-right: 1px solid $border_color_dark;
+
+            &:hover {
+
+            }
+            &:hover,
+            &.active {
+                color: $light;
+                border-color: $border_color_dark;
+                background: $bg_color_dark;
+            }
+        }
+    }
+}
+
+/*-----End styles for default tabs buttons------------*/
+
+.currency-state {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+
+    .head-splits {
+        flex-grow: 1;
+        flex-shrink: 0;
+
+        &.name {
+            flex-grow: 1;
+            font-size: 25px;
+            font-weight: 600;
+            margin-right: 10px;
+            .title {
+                font-size: inherit;
+            }
+            small {
+                font-size: 15px;
+            }
+        }
+        p {
+            margin: 0;
+        }
+
+        .small {
+            font-size: 12px;
+            color: $text_color_lighter;
+        }
+        .amount {
+            font-size: 14px;
+            font-weight: 600;
+            color: $dark;
+            span {
+                margin-right: 5px;
+            }
+        }
+    }
+}

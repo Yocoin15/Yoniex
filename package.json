@@ -1,0 +1,26 @@
+{
+  "name": "bitcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./node_modules/gulp/bin/gulp.js default",
+    "build": "node ./node_modules/gulp/bin/gulp.js build"
+  },
+  "author": "a.konuhov",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-file-include": "^2.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^4.1.0"
+  }
+}

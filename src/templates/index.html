@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    @include('head.html')
+</head>
+<body>
+@include('header.html')
+<main id="main" class="main">
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="trade-main">
+                <!-- Start Trade Left section -->
+                <div class="trade-left">
+                    <div class="plane">
+                        <div class="title-dark">
+                            <h4>Currency Pairs</h4>
+                        </div>
+
+
+
+                            <ul class="nav nav-tabs nav-tabs__small" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="r-usd-tab" data-toggle="tab" href="#r-usd" role="tab" aria-controls="r-usd" aria-selected="true">USD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="r-btc-tab" data-toggle="tab" href="#r-btc" role="tab" aria-controls="r-btc" aria-selected="false">BTC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="r-ltc-tab" data-toggle="tab" href="#r-ltc" role="tab" aria-controls="r-ltc" aria-selected="false">LTC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="r-bch-tab" data-toggle="tab" href="#r-bch" role="tab" aria-controls="r-bch" aria-selected="false">BCH</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="r-zec-tab" data-toggle="tab" href="#r-zec" role="tab" aria-controls="r-zec" aria-selected="false">ZEC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="r-eth-tab" data-toggle="tab" href="#r-eth" role="tab" aria-controls="r-eth" aria-selected="false">ETH</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="r-yoc-tab" data-toggle="tab" href="#r-yoc" role="tab" aria-controls="r-yoc" aria-selected="false">YOC</a>
+                                </li>
+                            </ul>
+
+                                <div class="tab-content" id="myTabContent">
+
+                                    <div class="tab-pane  fade show active" id="r-usd" role="tabpanel" aria-labelledby="r-usd-tab">
+                                        <table class="table table-hover table-small" cellspacing="0" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Pair</th>
+                                                <th class="text-right">Price</th>
+                                                <th class="text-right">Change</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><span>YOC/USD</span></td>
+                                                    <td class="text-right"><span class="green-color">0</span></td>
+                                                    <td class="text-right"><span class="red-color">0</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>LTC/USD</span></td>
+                                                    <td class="text-right"><span class="green-color">0</span></td>
+                                                    <td class="text-right"><span class="red-color">0</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>ETH/USD</span></td>
+                                                    <td class="text-right"><span class="green-color">0</span></td>
+                                                    <td class="text-right"><span class="red-color">0</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>YOC/USD</span></td>
+                                                    <td class="text-right"><span class="green-color">0.000012</span></td>
+                                                    <td class="text-right"><span class="red-color">0</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>BCH/USD</span></td>
+                                                    <td class="text-right"><span class="green-color">0</span></td>
+                                                    <td class="text-right"><span class="red-color">0</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>ZEC/USD</span></td>
+                                                    <td class="text-right"><span class="green-color">0</span></td>
+                                                    <td class="text-right"><span class="red-color">0</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+
+                                    <div class="tab-pane  fade" id="r-btc" role="tabpanel" aria-labelledby="r-usd-tab">
+                                        <table class="table table-hover table-small" cellspacing="0" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Pair</th>
+                                                <th class="text-right">Price</th>
+                                                <th class="text-right">Change</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><span>BTC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>LTC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ETH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>YOC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0.000012</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>BCH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ZEC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="tab-pane  fade" id="r-ltc" role="tabpanel" aria-labelledby="r-usd-tab">
+                                        <table class="table table-hover table-small" cellspacing="0" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Pair</th>
+                                                <th class="text-right">Price</th>
+                                                <th class="text-right">Change</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><span>LTC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>LTC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ETH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>YOC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0.000012</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>BCH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ZEC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="tab-pane  fade" id="r-bch" role="tabpanel" aria-labelledby="r-usd-tab">
+                                        <table class="table table-hover table-small" cellspacing="0" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Pair</th>
+                                                <th class="text-right">Price</th>
+                                                <th class="text-right">Change</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><span>BCH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>LTC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ETH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>YOC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0.000012</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>BCH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ZEC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="tab-pane  fade" id="r-zec" role="tabpanel" aria-labelledby="r-usd-tab">
+                                        <table class="table table-hover table-small" cellspacing="0" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Pair</th>
+                                                <th class="text-right">Price</th>
+                                                <th class="text-right">Change</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><span>ZEC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>LTC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ETH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>YOC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0.000012</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>BCH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ZEC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="tab-pane  fade" id="r-eth" role="tabpanel" aria-labelledby="r-usd-tab">
+                                        <table class="table table-hover table-small" cellspacing="0" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Pair</th>
+                                                <th class="text-right">Price</th>
+                                                <th class="text-right">Change</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><span>ETH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>LTC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ETH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>YOC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0.000012</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>BCH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ZEC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="tab-pane  fade" id="r-yoc" role="tabpanel" aria-labelledby="r-usd-tab">
+                                        <table class="table table-hover table-small" cellspacing="0" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Pair</th>
+                                                <th class="text-right">Price</th>
+                                                <th class="text-right">Change</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><span>YOC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>LTC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ETH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>YOC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0.000012</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>BCH/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>ZEC/USD</span></td>
+                                                <td class="text-right"><span class="green-color">0</span></td>
+                                                <td class="text-right"><span class="red-color">0</span></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+
+                                </div>
+
+
+                    </div>
+                </div>
+                <!-- END Trade Left section-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Start Trade Center section -->
+                <div class="trade-center">
+
+                    <div class="plane">
+                            <div class="currency-state">
+                                <div class="head-splits name title-dark">
+                                    <h4 class="title">YOC<small> / BTC</small></h4>
+                                </div>
+                                <div class="head-splits">
+                                    <p class="small">Last Price</p>
+                                    <p class="amount">
+                                        <span class="green-color">7,837.00</span>
+                                        <span>7,837.00</span>
+                                    </p>
+                                </div>
+
+                                <div class="head-splits">
+                                    <p class="small">24h Change</p>
+                                    <p class="amount">
+                                        <span class="red-color">-401.00</span>
+                                        <span class="red-color">-4.85%</span>
+                                    </p>
+                                </div>
+
+                                <div class="head-splits">
+                                    <p class="small">24h High</p>
+                                    <p class="amount">
+                                        <span>8,315.69</span>
+                                    </p>
+                                </div>
+
+                                <div class="head-splits">
+                                    <p class="small">24h Low</p>
+                                    <p class="amount">
+                                        <span>7,866.00</span>
+                                    </p>
+                                </div>
+
+                                <div class="head-splits">
+                                    <p class="small">24h Volume</p>
+                                    <p class="amount">
+                                        <span>346,159,658.97 USD</span>
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="plane full-height ">
+                        <div class="graph-container">
+                            <img src="./images/graph1.jpg" alt=""/>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- END Trade Center section-->
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Start Trade Right section -->
+                <div class="trade-right">
+                    <div class="plane">
+                        <div class="graph-container">
+                            <img src="./images/graph2.jpg" alt=""/>
+                        </div>
+                    </div>
+
+
+                    <div class="plane">
+
+                            <ul class="nav nav-tabs nav-tabs__default" id="myTab" role="tablist">
+                                <!--<li class="nav-item">
+                                    <a class="nav-link active" id="limit-tab" data-toggle="tab" href="#buy-or-sell" role="tab" aria-controls="limit" aria-selected="true">Buy-or-Sell</a>
+                                </li>-->
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="limit-tab" data-toggle="tab" href="#limit" role="tab" aria-controls="limit" aria-selected="true">Limit</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="market-tab" data-toggle="tab" href="#market" role="tab" aria-controls="limit" aria-selected="true">Market</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="stop-order-tab" data-toggle="tab" href="#stop-order" role="tab" aria-controls="limit" aria-selected="true">Stop Order</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content indent1 pb0">
+                                <div id="limit" class="tab-pane fade show active">
+                                    <div class="row">
+
+                                        <!-- Start Buy Cryptocurrency Section -->
+                                        <div class="col-xl-6  col-lg-12 col-md-6 col-xs-12">
+                                            <form>
+                                                <h5>Buy Cryptocurrency</h5>
+                                                <p>Available Blance (USD)</p>
+                                                <span class="disabled-input mb-3"><em>0.00</em> USD</span>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Price</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Amount</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">BTC</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+                                                    <label class="btn btn-success active">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>25%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option2" autocomplete="off">50%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">75%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">100%
+                                                    </label>
+                                                </div>
+
+                                                <div class="input-group ">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Total</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+                                                <p class="form-text text-right mb-3">Fee: 0.20%</p>
+
+                                                <button type="submit" class="btn btn-success btn-block">Buy</button>
+                                            </form>
+                                        </div>
+                                        <!-- END Buy Cryptocurrency Section-->
+
+
+
+                                        <!-- Start Sell Cryptocurrency Section -->
+                                        <div class="col-xl-6  col-lg-12 col-md-6 col-xs-12">
+                                            <form>
+                                                <h5>Selling Cryptocurrency</h5>
+                                                <p>Available Blance (BTC)</p>
+                                                <span class="disabled-input mb-3"><em>0.00</em> BTC</span>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Price</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Amount</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">BTC</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+                                                    <label class="btn btn-danger active">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>25%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option2" autocomplete="off">50%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">75%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">100%
+                                                    </label>
+                                                </div>
+
+                                                <div class="input-group ">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Total</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+                                                <p class="form-text text-right mb-3">Fee: 0.20%</p>
+
+                                                <button type="submit" class="btn btn-danger btn-block">Sell</button>
+                                            </form>
+                                        </div>
+                                        <!-- END Sell Cryptocurrency Section-->
+
+
+
+
+
+
+                                    </div>
+                                </div>
+
+
+                                <div id="market" class="tab-pane fade">
+                                    <div class="row">
+
+                                        <!-- Start Buy Cryptocurrency Section -->
+                                        <div class="col-xl-6  col-lg-12 col-md-6 col-xs-12">
+                                            <form>
+                                                <h5>Buy Cryptocurrency</h5>
+                                                <p>Available Blance (USD)</p>
+                                                <span class="disabled-input mb-3"><em>0.00</em> USD</span>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Price</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="Market Price">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Amount</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">BTC</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+                                                    <label class="btn btn-success active">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>25%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option2" autocomplete="off">50%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">75%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">100%
+                                                    </label>
+                                                </div>
+
+                                                <div class="input-group ">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Total</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+                                                <p class="form-text text-right mb-3">Fee: 0.20%</p>
+
+                                                <button type="submit" class="btn btn-success btn-block">Buy BTC</button>
+                                            </form>
+                                        </div>
+                                        <!-- END Buy Cryptocurrency Section-->
+
+
+
+                                        <!-- Start Sell Cryptocurrency Section -->
+                                        <div class="col-xl-6  col-lg-12 col-md-6 col-xs-12">
+                                            <form>
+                                                <h5>Selling Cryptocurrency</h5>
+                                                <p>Available Blance (BTC)</p>
+                                                <span class="disabled-input mb-3"><em>0.00</em> BTC</span>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Price</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="Market Price">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Amount</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">BTC</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+                                                    <label class="btn btn-danger active">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>25%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option2" autocomplete="off">50%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">75%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">100%
+                                                    </label>
+                                                </div>
+
+                                                <div class="input-group ">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Total</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+                                                <p class="form-text text-right mb-3">Fee: 0.20%</p>
+
+                                                <button type="submit" class="btn btn-danger btn-block">Sell BTC</button>
+                                            </form>
+                                        </div>
+                                        <!-- END Sell Cryptocurrency Section-->
+
+
+
+
+
+
+                                    </div>
+                                </div>
+
+
+                                <div id="stop-order" class="tab-pane fade">
+                                    <div class="row">
+
+                                        <!-- Start Buy Cryptocurrency Section -->
+                                        <div class="col-xl-6  col-lg-12 col-md-6 col-xs-12">
+                                            <form>
+                                                <h5>Available Blance (USD)</h5>
+                                                <span class="disabled-input mb-3"><em>0.00</em> USD</span>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Stop</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Limit</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Amount</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">BTC</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+                                                    <label class="btn btn-success active">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>25%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option2" autocomplete="off">50%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">75%
+                                                    </label>
+                                                    <label class="btn btn-success">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">100%
+                                                    </label>
+                                                </div>
+
+                                                <div class="input-group ">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Total</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+                                                <p class="form-text text-right mb-3">Fee: 0.20%</p>
+
+                                                <button type="submit" class="btn btn-success btn-block">Buy  BTC</button>
+                                            </form>
+                                        </div>
+                                        <!-- END Buy Cryptocurrency Section-->
+
+
+
+                                        <!-- Start Sell Cryptocurrency Section -->
+                                        <div class="col-xl-6  col-lg-12 col-md-6 col-xs-12">
+                                            <form>
+                                                <h5>Available Blance (USD)</h5>
+                                                <span class="disabled-input mb-3"><em>0.00</em> BTC</span>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Stop</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Limit</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Amount</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">BTC</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+                                                    <label class="btn btn-danger active">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>25%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option2" autocomplete="off">50%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">75%
+                                                    </label>
+                                                    <label class="btn btn-danger">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off">100%
+                                                    </label>
+                                                </div>
+
+                                                <div class="input-group ">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Total</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" value="0.00">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+                                                <p class="form-text text-right mb-3">Fee: 0.20%</p>
+
+                                                <button type="submit" class="btn btn-danger btn-block">Sell BTC</button>
+                                            </form>
+                                        </div>
+                                        <!-- END Sell Cryptocurrency Section-->
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                <!-- END Trade Right section-->
+            </div>
+
+
+
+
+
+
+            <div class="trade-main">
+                <!-- Start Trade Left section -->
+                <div class="trade-left">
+                    <div class="plane">
+                        <div class="title-dark">
+                            <h4>Trade History ( BTC-)</h4>
+                        </div>
+
+                        <table class="table table-hover table-small" cellspacing="0" width="100%">
+                            <thead class="gray-bg">
+                            <tr>
+                                <th>Pair</th>
+                                <th class="text-right">Ammount</th>
+                                <th class="text-right">Price</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><span>YOC/USD</span></td>
+                                <td class="text-right"><span class="green-color">0</span></td>
+                                <td class="text-right"><span class="red-color">0</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>LTC/USD</span></td>
+                                <td class="text-right"><span class="green-color">0</span></td>
+                                <td class="text-right"><span class="red-color">0</span></td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+                <!-- END Trade Left section-->
+
+
+
+
+
+
+                <!-- Start Trade Center section -->
+                <div class="trade-center">
+
+                    <div class="plane full-height ">
+                            <div class="title-dark">
+                                <h4>My Orders and Trades <strong>BTC/USD</strong></h4>
+                            </div>
+
+                            <ul class="nav nav-tabs nav-tabs__center" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#active-order" role="tab" aria-controls="active-order" aria-selected="true">Active Orders (0)</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#failed-order" role="tab" aria-controls="failed-order" aria-selected="false">Failled and Cancelled Orders</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#my-trades" role="tab" aria-controls="my-trades" aria-selected="false">My Trades</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content" >
+
+                                <div class="tab-pane  fade show active" id="active-order" role="tabpanel" aria-labelledby="r-usd-tab">
+                                    <table class="table table-hover table-small table-long" cellspacing="0" width="100%">
+                                        <thead class="gray">
+                                        <tr>
+                                            <th>Time (+03)</th>
+                                            <th>Order ID</th>
+                                            <th>Price (USD)</th>
+                                            <th>Exec./Total Amount (BTC)</th>
+                                            <th>Avg. Price(USD)</th>
+                                            <th>Total (USD)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="no-data">No Active Orders</p>
+                                </div>
+
+
+                                <div class="tab-pane  fade" id="failed-order" role="tabpanel" aria-labelledby="r-usd-tab">
+
+                                    <div class="checkbox-section">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input checkbox-custom" type="checkbox" id="checkboxTodayFailed" value="option1">
+                                            <label class="form-check-label checkbox-custom-label" for="checkboxTodayFailed">Today</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input checkbox-custom" type="checkbox" id="checkbox1WeekFailed" value="option2">
+                                            <label class="form-check-label checkbox-custom-label" for="checkbox1WeekFailed">1 Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input checkbox-custom" type="checkbox" id="checkbox1MonthFailed" value="option3">
+                                            <label class="form-check-label checkbox-custom-label" for="checkbox1MonthFailed">1 Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input checkbox-custom" type="checkbox" id="checkbox3MonthFailed" value="option4">
+                                            <label class="form-check-label checkbox-custom-label" for="checkbox3MonthFailed">3 Month</label>
+                                        </div>
+                                    </div>
+
+                                    <table class="table table-hover table-small table-long" cellspacing="0" width="100%">
+                                        <thead class="gray">
+                                        <tr>
+                                            <th>Time (+03)</th>
+                                            <th>Order ID</th>
+                                            <th>Price (USD)</th>
+                                            <th>Exec./Total Amount (BTC)</th>
+                                            <th>Avg. Price(USD)</th>
+                                            <th>Total (USD)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="no-data">No Active Orders</p>
+                                </div>
+
+
+                                <div class="tab-pane  fade" id="my-trades" role="tabpanel" aria-labelledby="r-usd-tab">
+
+                                    <div class="checkbox-section">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input checkbox-custom" type="checkbox" id="checkboxTodayTrades" value="option1">
+                                            <label class="form-check-label checkbox-custom-label" for="checkboxTodayTrades">Today</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input checkbox-custom" type="checkbox" id="checkbox1WeekTrades" value="option2">
+                                            <label class="form-check-label checkbox-custom-label" for="checkbox1WeekTrades">1 Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input checkbox-custom" type="checkbox" id="checkbox1MonthTrades" value="option3">
+                                            <label class="form-check-label checkbox-custom-label" for="checkbox1MonthTrades">1 Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input checkbox-custom" type="checkbox" id="checkbox3MonthTrades" value="option4">
+                                            <label class="form-check-label checkbox-custom-label" for="checkbox3MonthTrades">3 Month</label>
+                                        </div>
+                                    </div>
+
+                                    <table class="table table-hover table-small table-long" cellspacing="0" width="100%">
+                                        <thead class="gray">
+                                        <tr>
+                                            <th>Time (+03)</th>
+                                            <th>Order ID</th>
+                                            <th>Price (USD)</th>
+                                            <th>Exec./Total Amount (BTC)</th>
+                                            <th>Avg. Price(USD)</th>
+                                            <th>Total (USD)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="no-data">No Active Orders</p>
+                                </div>
+
+                            </div>
+
+
+                    </div>
+
+                </div>
+                <!-- END Trade Center section-->
+
+
+
+                <!-- Start Trade Right section -->
+                <div class="trade-right">
+                    <div class="plane">
+                        <div class="title-dark">
+                            <h4>Order Book BTC/USD</h4>
+                        </div>
+                        <div class="row no-gutters indent1">
+                            <div class="col-xl-6  col-lg-12 col-md-6 col-xs-12">
+                                    <div class="text-center">
+                                        <h5>Buying BTC</h5>
+                                        <p>Total: 123456789 <em>USD</em></p>
+                                    </div>
+                                    <div class="graph-container">
+                                        <img src="./images/graph3.jpg" alt=""/>
+                                    </div>
+                            </div>
+                            <div class="col-xl-6  col-lg-12 col-md-6 col-xs-12">
+                                <div class="text-center">
+                                    <h5>Selling BTC</h5>
+                                    <p>Total: 123456789 <em>USD</em></p>
+                                </div>
+                                <div class="graph-container">
+                                    <img src="./images/graph4.jpg" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <!-- END Trade Right section-->
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+</main>
+@include('footer.html')
+@include('scripts.html')
+</body>
+</html>
